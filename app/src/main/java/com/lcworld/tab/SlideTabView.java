@@ -169,7 +169,6 @@ public class SlideTabView extends HorizontalScrollView implements ViewPager.OnPa
     @Override
     protected void onDraw(Canvas canvas) {
         super.onDraw(canvas);
-
         float h = getHeight();
 
         paint.setColor(getResources().getColor(offLineColor));
