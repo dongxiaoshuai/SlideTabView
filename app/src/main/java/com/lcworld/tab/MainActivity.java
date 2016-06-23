@@ -9,7 +9,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class MainActivity extends FragmentActivity {
-    private TabView tabView;
+    private SlideTabView tabView;
     private ViewPager viewPager;
     private PagerAdapter adapter;
     private List<String> strings;
@@ -24,7 +24,7 @@ public class MainActivity extends FragmentActivity {
     }
 
     private void initView() {
-        tabView = (TabView) findViewById(R.id.tab);
+        tabView = (SlideTabView) findViewById(R.id.tab);
         viewPager = (ViewPager) findViewById(R.id.viewPager);
         strings = new ArrayList<>();
         list = new ArrayList<>();

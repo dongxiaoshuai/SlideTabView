@@ -27,7 +27,7 @@ import java.util.List;
  * 日期：2016/6/21.
  * 注释：顶部滑动标签栏
  */
-public class TabView extends HorizontalScrollView implements ViewPager.OnPageChangeListener {
+public class SlideTabView extends HorizontalScrollView implements ViewPager.OnPageChangeListener {
     //标签布局容器
     private LinearLayout linearLayout;
     //指示器画笔
@@ -59,16 +59,16 @@ public class TabView extends HorizontalScrollView implements ViewPager.OnPageCha
     //上下文
     private Context context;
 
-    public TabView(Context context) {
+    public SlideTabView(Context context) {
         this(context, null);
     }
 
-    public TabView(Context context, AttributeSet attrs) {
+    public SlideTabView(Context context, AttributeSet attrs) {
         this(context, attrs, 0);
     }
 
 
-    public TabView(Context context, AttributeSet attrs, int defStyleAttr) {
+    public SlideTabView(Context context, AttributeSet attrs, int defStyleAttr) {
         super(context, attrs, defStyleAttr);
         this.context = context;
         init();
