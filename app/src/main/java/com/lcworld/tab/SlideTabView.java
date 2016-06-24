@@ -246,7 +246,6 @@ public class SlideTabView extends HorizontalScrollView implements ViewPager.OnPa
 
     public void setMaxCount(float maxCount) {
         this.maxCount = maxCount;
-
     }
 
     public void setTxtSize(int txtSize) {
