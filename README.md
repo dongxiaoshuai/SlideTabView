@@ -8,8 +8,9 @@ SlideTabView
 
 使用方法
 -----------------------------------
-在xml文件中：
-   <com.lcworld.tab.SlideTabView
-        android:id="@+id/tab"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+###
+
+	 <com.lcworld.tab.SlideTabView
+	  android:id="@+id/tab"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content" />
